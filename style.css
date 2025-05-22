@@ -1,0 +1,19 @@
+body {
+    background-color: #b16d2a;
+    text-align: center;
+}
+img {
+    width: 10rem;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+.boba {
+    animation: spin 2s linear infinite;
+}
+.boba:hover {
+    animation: spin 0.5s linear infinite;
+    transform: scale(1.2);
+}
